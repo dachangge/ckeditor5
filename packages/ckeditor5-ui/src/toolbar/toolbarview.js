@@ -313,7 +313,7 @@ export default class ToolbarView extends View {
 					 *
 					 * @error toolbarview-line-break-ignored-when-grouping-items
 					 */
-					logWarning( 'toolbarview-line-break-ignored-when-grouping-items', itemsOrConfig );
+					logWarning( 'toolbarview-line-break-ignored-when-grouping-items', items );
 				}
 
 				return new ToolbarLineBreakView();
